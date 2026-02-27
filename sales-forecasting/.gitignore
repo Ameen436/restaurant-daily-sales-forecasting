@@ -1,0 +1,25 @@
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+
+# Generated project artifacts (keep folders via .gitkeep)
+data/*.csv
+models/*.joblib
+outputs/*.csv
+outputs/*.json
+outputs/*.png
+outputs/.mplconfig/
